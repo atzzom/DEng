@@ -18,3 +18,6 @@ even though the data lives in the same computer it is necessary guarantee the fo
 | 1. concurrency & multi-user access | guarantees concurrent access to the data and multiple users and applications can connect to the data simultaneously | although the data can be accessed by multiple applications at once (who knows if multiple users), this could easily lead to data corruption as there's no mechanism to handle multiple changes made at the same time |
 | 2. transaction management | transactions = operations on the data. Servers ensure that each transaction (operation) is either fully completed or not done at all, so data integrity is preserved ie. atomicity with is one of the ACID principles: **A**tomicity, **C**onsistency, **I**solation, **D**urability. | although possible to implement it, it needs consideration of direct (live) file access which is complex and error prone. |
 
+###### 2024-07-09
+
+(today was maintenance day rather than study day)
